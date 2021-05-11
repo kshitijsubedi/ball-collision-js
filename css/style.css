@@ -1,6 +1,13 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:5vh;
+}
+
 #canvas {
-    height: 95vh;
-    width:95vw;
-    margin:auto;
+    width: 85vw;
+    height: 85vh;
     background:whitesmoke;
+    border: 1px solid gray;
 }
