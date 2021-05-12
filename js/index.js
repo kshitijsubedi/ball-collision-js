@@ -3,12 +3,15 @@ const ballCount = 50;
 const minBallRadius = 3;
 const maxBallRadius = 5;
 
+
 function Canvas (){
     const canvas = document.getElementById('canvas');
     const ctx = canvas.getContext('2d');
+    let dpi = window.devicePixelRatio;
     this.ctx=ctx
     this.height = ctx.canvas.height;
     this.width = ctx.canvas.width;
+
 }
 Canvas.prototype.drawBalls = function (item)     {
     this.ctx.beginPath();
@@ -85,7 +88,6 @@ for (let i=0; i <ballCount;i++){
 }
 
 function loop(){
-
     window.requestAnimationFrame(loop);
     canvas.ctx.clearRect(0, 0, canvas.width, canvas.height);
     for(let i = 0; i < balls.length;i ++) {
