@@ -1,6 +1,6 @@
 # LeapfrogInternship
 
-- Vanilla JS Image Slider
+- Ball Collision and Bouncing using Vanilla JS
 
 ### Deployed here :
-https://kshitijsubedi.github.io/JS-Image-Carousel/
+https://kshitijsubedi.github.io/ball-collision-js/
