@@ -1,7 +1,7 @@
 const ballSpeed = 2;
 const ballCount = 50;
-const minBallRadius = 3;
-const maxBallRadius = 5;
+const minBallRadius = 10;
+const maxBallRadius = 20;
 
 // Canvas class
 function Canvas() {
